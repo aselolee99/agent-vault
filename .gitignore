@@ -1,0 +1,17 @@
+# Rust / cargo-near build output
+/target/
+**/target/
+Cargo.lock
+
+# NEAR CLI local state — never commit
+neardev/
+
+# Secrets — never commit
+.env
+credentials/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+*.swp
